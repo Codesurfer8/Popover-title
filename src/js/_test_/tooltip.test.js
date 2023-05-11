@@ -2,7 +2,7 @@
 * @jest-environment jsdom
 */
 
-import Tooltip from '../tooltip.js';
+import Tooltip from '../tooltip';
 
 test('tooltip text content', () => {
   const tooltip = new Tooltip();

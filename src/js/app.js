@@ -1,7 +1,6 @@
-import Tooltip from './tooltip.js';
+import Tooltip from './tooltip';
 
 const form = document.querySelector('.form');
-console.log(form.className);
 const popoverButton = document.querySelector('.popover-button');
 
 const tooltipsFactory = new Tooltip();
