@@ -6,7 +6,6 @@ module.exports = {
   },
 };
 
-
 module.exports = {
-    "testEnvironment": "jsdom"
-}
+  testEnvironment: 'jsdom',
+};
