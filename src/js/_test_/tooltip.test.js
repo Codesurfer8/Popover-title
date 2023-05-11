@@ -7,7 +7,7 @@ import Tooltip from '../tooltip';
 test('tooltip text content', () => {
   const tooltip = new Tooltip();
 
-  window.document.body.innerHTML = `<div class="container">
+  document.body.innerHTML = `<div class="container">
 <form class="form">
     <button class="popover-button">Click to toggle popover</button>
 </form>
@@ -21,7 +21,7 @@ test('tooltip text content', () => {
 test('popover up', () => {
   const tooltip = new Tooltip();
 
-  window.document.body.innerHTML = `<div class="container">
+  document.body.innerHTML = `<div class="container">
     <form class="form">
         <button class="popover-button">Click to toggle popover</button>
     </form>
